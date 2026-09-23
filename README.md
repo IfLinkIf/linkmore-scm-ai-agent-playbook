@@ -1,6 +1,8 @@
 # 领猫 SCM × AI Agent 实战手册
 
-**让你的 AI Agent 读懂领猫 SCM，替你完成取数、核对、分析与日常经营跟进。**
+**适配 WorkBuddy、豆包办公、千问办公、Codex、ChatGPT 等主流 AI Agent。**
+
+**让你的 AI 助手读懂领猫 SCM，替你完成取数、核对、分析与日常经营跟进。**
 
 [领猫官网](https://www.cnunify.com) · [开始使用](START_HERE.md) · [贡献指南](CONTRIBUTING.md) · [问题反馈](https://github.com/IfLinkIf/linkmore-scm-ai-agent-playbook/issues)
 
