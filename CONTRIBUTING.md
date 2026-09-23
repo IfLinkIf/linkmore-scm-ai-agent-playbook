@@ -2,13 +2,32 @@
 
 感谢你帮助企业用好 AI 与领猫 SCM。我们优先接收真实、可验证、可复用的内容。
 
-## 提交流程
+## 三种投稿方式（选你顺手的）
 
-1. 查找现有 Issue 和 Pull Request，避免重复；较大的主题可以先在 Issue 中认领。
-2. 在自己的分支或 Fork 中整理内容，一次贡献聚焦一个问题。
+**方式一 · 提 Issue（零门槛，推荐给不熟悉 GitHub 的同事）**
+
+在 [Issues](https://github.com/IfLinkIf/linkmore-scm-ai-agent-playbook/issues) 里选「投稿 / 建议」，把内容贴进去就行——不用排版漂亮，写清来源和验证情况即可。项目负责人会把内容转成正式提交，署名归你。
+
+**方式二 · 网页直接改（会用浏览器就能做）**
+
+在 GitHub 上打开要改的文件，点右上角铅笔图标编辑；或点 Add file → Create new file 新建。提交时 GitHub 会自动帮你 Fork 并引导创建 Pull Request。
+
+**方式三 · Fork + Pull Request（熟练方式）**
+
+1. 查找现有 Issue 和 Pull Request，避免重复；较大的主题先在 Issue 中认领，免得几个人做同一件事。
+2. Fork 到自己的账号并新建分支，**一次贡献聚焦一个主题**，不要在一个 PR 里混多件事。
 3. 提交前检查事实、适用版本、链接和敏感信息，必要时请同事独立复现。
-4. 创建 Pull Request，说明解决的问题、改动内容及验证结果。
+4. 创建 Pull Request，按模板说明解决的问题、改动内容及验证结果。
 5. 根据审核意见修订，由项目负责人审核后合并。
+
+## 技能投稿（skills/）
+
+技能是**给 AI Agent 照着执行的步骤说明**，是本仓库最缺、也最值钱的一块。
+
+1. 复制 [`skills/TEMPLATE-SKILL.md`](skills/TEMPLATE-SKILL.md)，按模板填完，放进 `skills/`。
+2. 技能引用的业务口径，去 `knowledge/` 新建或修改——**一个定义只维护一处**，不要在技能里复制口径。
+3. 必须标清状态（草稿 / 已验证 / 客户现场复现），并写清验证人、时间与复现方式。
+4. 写作要点见 [`skills/README.md`](skills/README.md)。
 
 ## 一篇实用场景应包含什么
 
